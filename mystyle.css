@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap%27');
+/*Global*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}   
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/* utilities */
+
+/* nav menu */
+nav.menu{
+    display: flex;
+    justify-content: space-between; /*horizontally*/
+    align-items: center; /*vertically*/ 
+    background-color: white;
+    height: 35px;
+    padding: 8px 17px 6px 17px;
+}
+nav.menu a{
+    color: black;
+    margin-right: 8px;
+}
+.logo-frame{
+    height: 32px;
+}
+.logo-complete{
+    display: none;
+}
+.link-login{
+
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 1000;
+}
+.link-search{
+    display: none;
+}
+.link-news{
+    display: none;
+}
+a.link-subs{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 1000;
+
+    color: white!important;
+    background-color: black;
+    padding: 20px 18px 14px 18px;
+    
+}
+.link-menu{
+    display: none;
+}
+.linnk-arrows{
+    
+}
+/*header*/
+header{
+    height: 152px;
+    text-align: center;
+    padding: 50px 10px;
+
+}
+h1{
+    font-size: 43px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 730;
+}
+.h1text{
+    padding: 17px ;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.subscribe{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
